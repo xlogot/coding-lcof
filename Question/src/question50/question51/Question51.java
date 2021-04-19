@@ -5,9 +5,6 @@ import java.time.chrono.MinguoChronology;
 public class Question51 {
     static int inversePairs(A1 data,int length){
         if (data==null||length<=0) return -1;
-//        int[] clone = data.a.clone();
-//        A1 copy=new A1();
-//        copy.a=clone;
         return inversePairsCore(data,0,length-1);
     }
 
@@ -46,12 +43,11 @@ public class Question51 {
                 arrays.a[arrayEnd--]=copy[rightEnd];
             }
         }
-//        copy.a=arrays.a;
         return count;
     }
 
     public static void main(String[] args) {
-        int[] a={7,5,6,4};
+        int[] a={8,7,6,9,5};
         A1 a1=new A1();
         a1.a=a;
         int i = inversePairs(a1, a.length);
