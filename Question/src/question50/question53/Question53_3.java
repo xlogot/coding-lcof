@@ -1,6 +1,10 @@
 package question50.question53;
 
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
 public class Question53_3 {
     static int findElementEqualToIndex(int[] data,int length){
         if (data==null||length<1) return -1;

@@ -40,11 +40,6 @@ public class Question52 {
         t1.next=t2;
         ListNode t3=new ListNode(3);
         t2.next=t3;
-//        ListNode t6=new ListNode(6);
-//        t3.next=t6;
-//        ListNode t7=new ListNode(7);
-//        t6.next=t7;
-
         ListNode t4=new ListNode(4);
         ListNode t5=new ListNode(5);
         t4.next=t5;/*t5.next=t6;*/

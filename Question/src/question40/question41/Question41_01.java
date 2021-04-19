@@ -4,9 +4,7 @@ import java.util.PriorityQueue;
 
 public class Question41_01 {
     static int midNumber(int[] array){
-        PriorityQueue<Integer> maxHeap=new PriorityQueue<>((o1, o2)-> {
-            return o2 - o1;
-        });
+        PriorityQueue<Integer> maxHeap=new PriorityQueue<>((o1, o2)->o2 - o1);
 
         PriorityQueue<Integer> minHeap=new PriorityQueue<>();
         for (int i=0;i<array.length;i++){
